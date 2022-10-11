@@ -1,8 +1,91 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Comparison</title>
-  </head>
+    <title>COMPARISON</title>
   
+    <!-- Bring in our bootstrap stylesheet -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+     <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+  <body>
+    <!-- Start of navbar -->
+    <div class="navigation">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">LATITUDE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    
+              <li class="nav-item">
+                <a class="nav-link" href="comparison.html">COMPARISON</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="data.html">DATA</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  PLOTS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="visualization/temperature.html">Max Temperature</a></li>
+                  <li><a class="dropdown-item" href="visualization/humidity.html">Humidity</a></li>
+                  <li><a class="dropdown-item" href="visualization/cloudiness.html">Cloudiness</a></li>
+                  <li><a class="dropdown-item" href="visualization/wind.html">Wind Speed</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </div>
+  <div class="box">
+    <h3 class="title">Comparison: Latitude vs X</h3>
+    <hr>
+    <p>Click any plot to get indept analysis</p>
+    <div class="row">
+        <div class="col-md-6">
+            <h3 class="title">vs. Max Teperature</h3>
+            <a href="visualization/temperature.html"><img width="100%" src="assets/Images/Fig1.png"></a>   
+        </div>
+        <div class="col-md-6">
+            <h3 class="title">vs. Humidity</h3>
+            <a href="visualization/humidity.html"><img width="100%" src="assets/Images/Fig2.png"></a>  
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-6">
+            <h3 class="title">vs. Cloudiness </h3>
+            <a href="visualization/cloudiness.html"><img width="100%" src="assets/Images/Fig3.png"></a>   
+        </div>
+        <div class="col-md-6">
+            <h3 class="title">vs. Wind Speed</h3>
+            <a href="visualization/wind.html"><img width="100%" src="assets/Images/Fig4.png"></a>  
+        </div>
+    </div>   
+</div>
+<!-- End of container -->
+
+<!-- Start of footer -->
+<footer class="footer">
+  Web Design Challenge - Jennifer Matsuda </footer>
+  <!-- End of footer -->
+
+<!-- jQuery CDN -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+
+<!-- Bootstrap CDN -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</body>
+
 </html>
